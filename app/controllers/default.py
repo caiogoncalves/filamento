@@ -14,7 +14,7 @@ def hello_world():
             "Novo Contato",
             sender='caioagoncalves@gmail.com',
             recipients=['caioagoncalves@gmail.com'],
-            body="%s, %s, %s" %(form.email.data, form.nome.data, form.telefone.data)
+            body="E-Mail: %s, Nome: %s, Telefone: %s, Assunto: %s" %(form.email.data, form.nome.data, form.telefone.data, form.assunto.data)
         )
         mail.send(msg)
     else:

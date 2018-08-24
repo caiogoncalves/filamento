@@ -1,4 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="filamento" filePermissions="420" folderPermissions="493" />
+  <component name="PublishConfigData" serverName="filamento" uploadOnCheckin="b8761106-829f-46b2-881e-614abbf19ffb" filePermissions="420" folderPermissions="493">
+    <option name="myUploadOnCheckinName" value="filamento" />
+  </component>
 </project>

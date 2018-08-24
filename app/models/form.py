@@ -8,4 +8,4 @@ class EmailForm(FlaskForm):
     nome = StringField("nome", validators=[DataRequired()])
     telefone = StringField("telefone", validators=[DataRequired()])
     email = EmailField("email", validators=[DataRequired(), Email("Email Inválido")])
-    assunto = TextAreaField("assunto")
+    mensagem = TextAreaField("mensagem")
